@@ -18,7 +18,7 @@ get '/messages/:id' do
 end
 
 post '/messages' do
-  binding.pry
+  #binding.pry
   @message = Message.new(
     title: params[:title],
     content: params[:content],
